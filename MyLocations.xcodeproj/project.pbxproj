@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78031B781EC32D8800F235A0 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78031B771EC32D8800F235A0 /* LocationDetailsViewController.swift */; };
+		78031B7A1EC4945C00F235A0 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78031B791EC4945C00F235A0 /* CategoryPickerViewController.swift */; };
 		781BEFB81EBC14CF00403FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */; };
-		781BEFBA1EBC14CF00403FD3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFB91EBC14CF00403FD3 /* FirstViewController.swift */; };
+		781BEFBA1EBC14CF00403FD3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */; };
 		781BEFBC1EBC14CF00403FD3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */; };
 		781BEFBF1EBC14CF00403FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781BEFBD1EBC14CF00403FD3 /* Main.storyboard */; };
 		781BEFC11EBC14CF00403FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781BEFC01EBC14CF00403FD3 /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78031B771EC32D8800F235A0 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
+		78031B791EC4945C00F235A0 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		781BEFB41EBC14CF00403FD3 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		781BEFB91EBC14CF00403FD3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		781BEFBE1EBC14CF00403FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		781BEFC01EBC14CF00403FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */,
-				781BEFB91EBC14CF00403FD3 /* FirstViewController.swift */,
+				781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */,
 				781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */,
 				781BEFBD1EBC14CF00403FD3 /* Main.storyboard */,
 				781BEFC01EBC14CF00403FD3 /* Assets.xcassets */,
 				781BEFC21EBC14CF00403FD3 /* LaunchScreen.storyboard */,
 				781BEFC51EBC14CF00403FD3 /* Info.plist */,
+				78031B771EC32D8800F235A0 /* LocationDetailsViewController.swift */,
+				78031B791EC4945C00F235A0 /* CategoryPickerViewController.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78031B781EC32D8800F235A0 /* LocationDetailsViewController.swift in Sources */,
 				781BEFBC1EBC14CF00403FD3 /* SecondViewController.swift in Sources */,
 				781BEFB81EBC14CF00403FD3 /* AppDelegate.swift in Sources */,
-				781BEFBA1EBC14CF00403FD3 /* FirstViewController.swift in Sources */,
+				78031B7A1EC4945C00F235A0 /* CategoryPickerViewController.swift in Sources */,
+				781BEFBA1EBC14CF00403FD3 /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				781BEFCA1EBC14CF00403FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
