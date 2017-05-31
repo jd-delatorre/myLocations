@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import CoreData
 
 class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -33,6 +34,8 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     //adding timer to stop app from running too long
     var timer: Timer?
+    
+    var managedObjectContext: NSManagedObjectContext!
     
     //Action to get current location
     @IBAction func getLocation(){
@@ -135,7 +138,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
                 geocoder.reverseGeocodeLocation(newLocation, completionHandler: {
                     placemarks, error in
                 
-                    print("*** Found plaemarks: \(placemarks), error: \(error)")
+                    print("*** Found placemarks: \(placemarks), error: \(error)")
                     
                     self.lastGeocodingError = error
                     if error == nil, let p = placemarks, !p.isEmpty{
@@ -306,6 +309,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             
             controller.coordinate = location!.coordinate
             controller.placemark = placemark
+            controller.managedObjectContext = managedObjectContext
         }
     }
 
