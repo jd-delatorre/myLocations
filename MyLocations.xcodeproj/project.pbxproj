@@ -14,6 +14,7 @@
 		78031B811ECB12E300F235A0 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78031B7F1ECB12E300F235A0 /* DataModel.xcdatamodeld */; };
 		78031B881ECD022500F235A0 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78031B861ECD022500F235A0 /* Location+CoreDataClass.swift */; };
 		78031B891ECD022500F235A0 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78031B871ECD022500F235A0 /* Location+CoreDataProperties.swift */; };
+		78115CAA1EE5841500DBA659 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78115CA91EE5841500DBA659 /* LocationsViewController.swift */; };
 		781BEFB81EBC14CF00403FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */; };
 		781BEFBA1EBC14CF00403FD3 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */; };
 		781BEFBC1EBC14CF00403FD3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */; };
@@ -30,6 +31,7 @@
 		78031B801ECB12E300F235A0 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		78031B861ECD022500F235A0 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		78031B871ECD022500F235A0 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		78115CA91EE5841500DBA659 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		781BEFB41EBC14CF00403FD3 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
@@ -73,17 +75,18 @@
 			isa = PBXGroup;
 			children = (
 				781BEFB71EBC14CF00403FD3 /* AppDelegate.swift */,
-				781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */,
-				781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */,
-				781BEFBD1EBC14CF00403FD3 /* Main.storyboard */,
 				781BEFC01EBC14CF00403FD3 /* Assets.xcassets */,
-				781BEFC21EBC14CF00403FD3 /* LaunchScreen.storyboard */,
-				781BEFC51EBC14CF00403FD3 /* Info.plist */,
-				78031B771EC32D8800F235A0 /* LocationDetailsViewController.swift */,
 				78031B791EC4945C00F235A0 /* CategoryPickerViewController.swift */,
-				78031B7B1EC8A91700F235A0 /* HudView.swift */,
-				78031B7D1EC9DB8300F235A0 /* Functions.swift */,
+				781BEFB91EBC14CF00403FD3 /* CurrentLocationViewController.swift */,
 				78031B7F1ECB12E300F235A0 /* DataModel.xcdatamodeld */,
+				78031B7D1EC9DB8300F235A0 /* Functions.swift */,
+				78031B7B1EC8A91700F235A0 /* HudView.swift */,
+				781BEFC51EBC14CF00403FD3 /* Info.plist */,
+				781BEFC21EBC14CF00403FD3 /* LaunchScreen.storyboard */,
+				78031B771EC32D8800F235A0 /* LocationDetailsViewController.swift */,
+				78115CA91EE5841500DBA659 /* LocationsViewController.swift */,
+				781BEFBD1EBC14CF00403FD3 /* Main.storyboard */,
+				781BEFBB1EBC14CF00403FD3 /* SecondViewController.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				78031B811ECB12E300F235A0 /* DataModel.xcdatamodeld in Sources */,
 				781BEFBC1EBC14CF00403FD3 /* SecondViewController.swift in Sources */,
 				78031B7C1EC8A91700F235A0 /* HudView.swift in Sources */,
+				78115CAA1EE5841500DBA659 /* LocationsViewController.swift in Sources */,
 				78031B891ECD022500F235A0 /* Location+CoreDataProperties.swift in Sources */,
 				78031B7E1EC9DB8300F235A0 /* Functions.swift in Sources */,
 				781BEFB81EBC14CF00403FD3 /* AppDelegate.swift in Sources */,
