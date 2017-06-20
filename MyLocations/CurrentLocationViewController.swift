@@ -84,7 +84,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func locationManager(_ manager: CLLocationManager,
                          didFailWithError error:Error){
-        print("didFailWithError\(error)")
+        print("didFailWithError \(error)")
         
         if(error as NSError).code == CLError.locationUnknown.rawValue{
             return
